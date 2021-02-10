@@ -1,7 +1,6 @@
 function sorteio() {
     const concorrentes = [
-        '@leticiapyres', '@garotaxd','@leledeveloper','@_sergiomoura', '@andreyaraujo.dev', '@weslleyoliveiradev', '@jornadadeumdev',
-        '@jornadadeumdev', '@jornadadeumdev', '@venadesigner', '@venadesigner', '@wil_limaofc'
+        'pessoa1', 'pessoa2', 'pessoa3','pessoa4','pessoa5','pessoa6','pessoa7','pessoa8', 'pessoa9','pessoa10',
         ];
     const randomConcorrente = concorrentes[Math.floor(Math.random() * concorrentes.length)];
     document.getElementById('resultado').innerHTML= `Parabéns, ${randomConcorrente}! Você ganhou um convite para o ClubHouse!`;
